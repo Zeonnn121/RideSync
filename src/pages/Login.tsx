@@ -11,7 +11,8 @@ const Login = () => {
   };
 
   const handleSkip = () => {
-    navigate('/home'); // Redirect to the homepage
+    localStorage.setItem('isGuest', 'true');
+    navigate('/home');
   };
 
   return (
