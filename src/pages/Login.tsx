@@ -20,7 +20,7 @@ const Login = () => {
         <div className="flex justify-center mb-6">
           <Car size={48} className="text-indigo-600" />
         </div>
-        <h2 className="text-2xl font-bold text-center mb-6">Team cyphor</h2>
+        <h2 className="text-2xl font-bold text-center mb-6">RideSync</h2>
 
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
