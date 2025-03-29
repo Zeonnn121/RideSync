@@ -9,8 +9,7 @@ import Final from './pages/Final';
 import Schedule from './pages/Schedule';
 function App() {
   // Check if the user is authenticated by checking for 'studentId' in localStorage
-  const isAuthenticated = !!localStorage.getItem('studentId');
-
+  const isAuthenticated = !!localStorage.getItem('studentId') || !!localStorage.getItem('isGuest');
   return (
     <Router>
       <div className="min-h-screen bg-gray-100">
